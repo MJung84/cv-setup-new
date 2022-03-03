@@ -4,7 +4,114 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta name="description" content="Lebenslauf" />
+    <meta name="author" content="Marko" />
+    <title>About Me</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/normalize.css@8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <div class="heading-group">
+        <h1 class="main-heading">Marko Jungschlaeger</h1>
+        <p>Edutainer for Web Technologies</p>
+      </div>
+      <nav class="navigation">
+        <a class="nav-link" href="#prifile">Profile</a>
+        <a class="nav-link" href="#experience">Experience</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
+      <aside class="hire-me">Hire Me</aside>
+    </header>
+    <main class="main">
+      <article class="main-article" id="profile">
+        <h2 class="main-article-heading">Profile</h2>
+        <p class="main-article-content">
+          Hi, my name is Marko. I am a Web-Developer in education.
+        </p>
+      </article>
+      <article class="main-article" id="experience">
+        <h2 class="main-article-heading">Experience</h2>
+        <div class="main-article-content">
+          <section>
+            <header class="experience-header">
+              <h3 class="experience-heading">
+                BVCPS GmbH - Sample Log-in Administrator & Costumer Service
+                Administrator
+              </h3>
+              <p class="experience-subheading">2009 - 2016</p>
+            </header>
+            <p>
+              First sighting of incomming samples, if necessary, recomment
+              applicable tests according to legislation and customer
+              requirements. All head to head with our clients. Enter tests into
+              the Laboratory System for further procedure. Further I was in
+              charge to kepp all of our requirements up to date within our
+              Labware-System. Later on I also created the test reports.
+            </p>
+          </section>
+          <section>
+            <header class="experience-header">
+              <h3 class="experience-heading">
+                Callways Callcenter GmbH - Callcenter Agent
+              </h3>
+              <p class="experience-subheading">2018 - 2020</p>
+            </header>
+            <p>
+              Processing dozens of different queries for several clients, each
+              with theire own backend system.
+            </p>
+          </section>
+        </div>
+      </article>
+      <article class="main-article" id="skills">
+          <h2class="main-article-heading">Skills</h2>
+          <div class="main-article-content">
+              <section>
+                  <h3>Soft Skills</h3>
+                  <ul>
+                      <li>Empathy</li>
+                      <li>Teamwork</li>
+                      <li>Thinking out of the box</li>
+                  </ul>
+              </section>
+              <section>
+                  <h3>Technical Skills</h3>
+                  <ul>
+                      <li>HTML - Basics</li>
+                      <li>CSS - in progress</li>
+                      <li>JavaScript - upcomming</li>
+                  </ul>
+              </section>
+          </div>
+      </article>
+      <article class="main-article" id="contact">
+          <h2 class="main-article-heading">Contact</h2>
+          <ol class="main-article-content">
+              <li>
+                   E-Mail:
+              <a href="mailto:markojungschlaeger@gmail.com"
+                >markojungschlaeger@gmail.com</a
+              >
+              </li>
+          </ol>
+      </article>
+    </main>
+    <footer class="footer">
+        <p class="footer-text">
+            Did you like my CV?
+            <a class="footer-link" href="mailto:markojungschlaeger@gmail.com">Contact Me</a>
+        </p>
+    </footer>
+  </body>
 </html>
